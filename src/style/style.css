@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(../assets/fonts/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat-ExtraBoldItalic.ttf);
+}
+
+* {
+  color: #2d3748;
+  font-family: Quicksand;
+}
+
+/* TEMPLATE */
+
+.bg-brand {
+  background-color: #29bb89;
+}
+
+.bg-basic {
+  background-color: #2d3748;
+}
+
+.text-brand {
+  color: #29bb89;
+}
+
+.text-basic {
+  color: #2d3748;
+}
+
+.border-brand {
+  border-color: #29bb89;
+}
+
+/* HEADER */
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 2em;
+}
+
+.navbar-nav a {
+  font-family: Quicksand;
+  letter-spacing: 0.08em;
+}
+
+/* MAIN */
+
+#search-input {
+  background-color: #e9ebee;
+}
+
+#search-submit {
+  z-index: 5;
+  right: 2.2em;
+  top: 0.2em;
+  background-color: none;
+}
+
+#categories ul li {
+  list-style: none;
+}
+
+#categories ul li:first-child {
+  border-right: 6px solid #2d3748;
+}
+
+#products .row {
+  background-color: #eff4f8;
+}
+
+#products .card {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+
+.banner {
+  height: 22em;
+  width: 100%;
+  background-color: #4ad8a6;
+}
+
+.banner2 {
+  height: 22em;
+  width: 100%;
+  background-color: #be79df;
+}
