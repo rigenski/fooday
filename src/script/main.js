@@ -22,6 +22,7 @@ const main = () => {
     productListElement.renderError(mess);
   };
 
+  window.onload = onButtonSearchClicked;
   searchElement.clickEvent = onButtonSearchClicked;
 };
 

@@ -20,7 +20,8 @@ class ProductList extends HTMLElement {
 
   renderError(mess) {
     this.innerHTML = "";
-    this.innerHTML += `<h2 class="placeholder">${mess}</h2>`;
+    this.innerHTML += `<div class="w-100 text-center py-5">
+    <h2 class="placeholder py-5">${mess}</h2></div>`;
   }
 }
 

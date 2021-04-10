@@ -73,11 +73,11 @@
   border-right: 6px solid #2d3748;
 }
 
-#products .row {
+product-list {
   background-color: #eff4f8;
 }
 
-#products .card {
+product-list .card {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
 }
 

@@ -8,7 +8,7 @@ const products = [
     desc: "Curabitur aliquet ",
   },
   {
-    name: "sapien massam",
+    name: "sapien mass",
     desc: "Proin eget tortor",
   },
   {

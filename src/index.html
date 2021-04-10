@@ -56,25 +56,25 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
         </div>
-        <div class="row my-4">
-          <div class="col-2 d-md-block d-none pr-0">
+        <div class="row px-3 my-4">
+          <div class="col-2 d-md-block d-none p-0">
             <h5 class="font-weight-bold">Category</h5>
           </div>
           <div
-            class="col-md-10 col-12 d-flex justify-content-between align-items-center pl-md-0 pl-3"
+            class="col-md-10 col-12 d-flex justify-content-between align-items-center p-0"
           >
             <div class="dropdown">
               <button
                 class="btn bg-basic text-white rounded-pill px-4 dropdown-toggle py-1"
                 type="button"
-                id="dropdownMenuButton"
+                id="dropdown-sort"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Sort by: Popular
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-menu" aria-labelledby="dropdown-sort">
                 <a class="dropdown-item" href="#">Newest</a>
                 <a class="dropdown-item" href="#">Popular</a>
                 <a class="dropdown-item" href="#">Most Viewed</a>
@@ -83,8 +83,8 @@
             <search-input class="d-block"></search-input>
           </div>
         </div>
-        <div class="row">
-          <div id="categories" class="col-2 d-md-block d-none pr-0">
+        <div class="row px-3">
+          <div id="categories" class="col-2 d-md-block d-none p-0">
             <ul class="p-0">
               <li class="mb-2">
                 <a href="#" class="text-basic font-weight-bold">Chicken</a>
@@ -100,26 +100,8 @@
               </li>
             </ul>
           </div>
-          <!-- <product-list></product-list> -->
-          <div id="products" class="col-md-10 col-12 rounded-lg pl-md-0 pl-3">
-            <product-list class="row mx-0 px-2 py-4">
-              <!-- <div class="col-lg-3 col-6 mb-4 px-2">
-                <div class="card rounded-lg">
-                  <img
-                    src="./assets/images/sample.jpg"
-                    class="card-img-top"
-                    height="160px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title font-weight-bold mb-1">
-                      Lorem Ipsum
-                    </h5>
-                    <p class="card-text">Dolor sit amet</p>
-                  </div>
-                </div>
-              </div> -->
-            </product-list>
-          </div>
+          <product-list class="row mx-0 px-2 py-4 col-md-10 col-12 rounded-lg">
+          </product-list>
         </div>
       </div>
     </main>
