@@ -3,8 +3,8 @@ class SearchInput extends HTMLElement {
     this.render();
   }
 
-  set clickEvent(e) {
-    this._clickEvent = e;
+  set keyupEvent(e) {
+    this._keyupEvent = e;
     this.render();
   }
 
@@ -36,9 +36,9 @@ class SearchInput extends HTMLElement {
   </div>
   </div>`;
 
-    this.querySelector("#search-submit").addEventListener(
-      "click",
-      this._clickEvent
+    this.querySelector("#search-input").addEventListener(
+      "keyup",
+      this._keyupEvent
     );
   }
 }

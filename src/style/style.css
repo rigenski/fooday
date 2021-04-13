@@ -60,17 +60,17 @@
 
 #search-submit {
   z-index: 5;
-  right: 2.2em;
+  right: 1.4em;
   top: 0.2em;
   background-color: none;
 }
 
-#categories ul li {
-  list-style: none;
+category-list category-item li p {
+  transition: all 0.4s;
 }
 
-#categories ul li:first-child {
-  border-right: 6px solid #2d3748;
+category-list category-item li p:hover {
+  font-size: 1.2em;
 }
 
 product-list {
@@ -81,14 +81,14 @@ product-list .card {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
 }
 
+.text-banner h2 {
+  font-family: Poppins;
+  font-size: 3.2em;
+  letter-spacing: 0.4em;
+}
+
 .banner {
   height: 22em;
   width: 100%;
   background-color: #4ad8a6;
-}
-
-.banner2 {
-  height: 22em;
-  width: 100%;
-  background-color: #be79df;
 }

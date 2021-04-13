@@ -4,9 +4,9 @@ class NavHeader extends HTMLElement {
   }
 
   render() {
-    this.innerHTML = `<nav class="navbar navbar-expand-lg navbar-light p-4 bg-white">
-      <div class="container">
-        <a class="nav-brand" href="#"
+    this.innerHTML = `<nav class="navbar navbar-expand-lg navbar-light px-3 py-4 bg-white">
+      <div class="container-lg">
+        <a class="nav-brand" href="/"
           ><span class="navbar-brand">FO</span
           ><span
             class="navbar-brand"
@@ -25,8 +25,8 @@ class NavHeader extends HTMLElement {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="28"
+            height="28"
             fill="currentColor"
             class="bi bi-chevron-double-down"
             viewBox="0 0 16 16"
